@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://j67scg3rthk0"]
+
+[ext_resource type="Script" uid="uid://c3n1d6u7mmipg" path="res://clue.gd" id="1_rlkw3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5xuqs"]
+
+[node name="Clue" type="Node2D"]
+script = ExtResource("1_rlkw3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_5xuqs")
